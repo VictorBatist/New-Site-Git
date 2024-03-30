@@ -1,3 +1,5 @@
+/* Estilização Geral */
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +22,8 @@ body{
     background-color: rgb(126, 126, 128);
 }
 
+/* Estilização do Cabeçalho */
+
 header{
     padding: 30px 4%;
     background-color: var(--color-1);
@@ -34,6 +38,28 @@ header > .interface{
 header .logo img{
 width: 120px;
 }
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: var(--color-2);
+}
+
 
 header .input-pesquisa input{
     padding: 10px 30px;
