@@ -22,6 +22,10 @@ body{
     background-color: rgb(126, 126, 128);
 }
 
+.flex{
+    display: flex;
+}
+
 /* Estilização do Cabeçalho */
 
 header{
@@ -65,4 +69,34 @@ header .input-pesquisa input{
     padding: 10px 30px;
     font-size: 15px;
     border-radius: 30px;
+}
+
+/* Estilzando topo do site */
+
+.sobre-git{
+    padding: 30px 4%;
+}
+
+.sobre-git .interface p{
+    font-size: 40px;
+    color: var(--color-2);
+    margin: 40px ;
+}
+
+.imagem-topo{
+    background-color: var(--color-2);
+    width: 500px;
+    border-radius: 40px;
+}
+
+/* Sobre o GitHub */
+
+.sobre-github{
+    padding: 30px 4%;
+}
+
+.sobre-github .interface p{
+    font-size: 40px;
+    color: var(--color-2);
+    margin: 40px ;
 }
