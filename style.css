@@ -1,0 +1,102 @@
+/* Estilização Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --color-1:black;
+    --color-2:white;
+    --color-3:rgb(126, 126, 128);
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(126, 126, 128);
+}
+
+.flex{
+    display: flex;
+}
+
+/* Estilização do Cabeçalho */
+
+header{
+    padding: 30px 4%;
+    background-color: var(--color-1);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img{
+width: 120px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header a{
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+header a:hover{
+    color: var(--color-2);
+}
+
+
+header .input-pesquisa input{
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+/* Estilzando topo do site */
+
+.sobre-git{
+    padding: 30px 4%;
+}
+
+.sobre-git .interface p{
+    font-size: 40px;
+    color: var(--color-2);
+    margin: 40px ;
+}
+
+.imagem-topo{
+    background-color: var(--color-2);
+    width: 500px;
+    border-radius: 40px;
+}
+
+/* Sobre o GitHub */
+
+.sobre-github{
+    padding: 30px 4%;
+}
+
+.sobre-github .interface p{
+    font-size: 40px;
+    color: var(--color-2);
+    margin: 40px ;
+}
